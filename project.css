@@ -1,0 +1,34 @@
+body {
+  background-color: #c2dbf4;
+  color: #053486;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+}
+
+h1 {
+  
+  font-size: 50px;
+  
+}
+
+.container {
+  max-width: 1500px;
+}
+
+iframe {
+  display: block;
+  border: 7px solid #053486;
+  width: 90%;
+  height: 500px;
+  margin-bottom: 20px;
+  
+}
+
+@media screen and (max-width: 375px) {
+  
+  .container {
+    max-width: 370px;
+    margin-left: 20px;
+  }
+}
+  
