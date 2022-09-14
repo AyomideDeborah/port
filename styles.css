@@ -106,6 +106,10 @@ a.submit {
   cursor: pointer;
 }
 
+a.submit:hover {
+  background-color: #053486;
+}
+
 a .contact {
   background-color: #3aafa9;
   padding: 10px;
