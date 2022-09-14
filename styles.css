@@ -97,7 +97,7 @@ span {
 
 a.submit {
   text-decoration: none;
-  outline: 2px solid #053486;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   background-color: inherit;
   color: white;
   padding: 10px 20px;
