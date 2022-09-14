@@ -97,17 +97,19 @@ span {
 
 a.submit {
   text-decoration: none;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 4px 8px 0 #053486, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   background-color: inherit;
   color: white;
   padding: 10px 20px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  font-family: 'Inter', sans-serif;
 }
 
 a.submit:hover {
   background-color: #053486;
+  font-family: 'Lexend Deca', sans-serif;
 }
 
 a .contact {
@@ -149,7 +151,7 @@ a .contact {
   }
   
   ul .sidenav li a {
-    float: right;
+    float: left;
     padding: 15px;
   }
   
@@ -189,7 +191,7 @@ ul.soc-icons {
 @media  screen and (max-width: 375px) {
   ul.sidenav li a {
     text-align: center;
-    float: none;
+    float: left;
   }
   
   .illustration {
